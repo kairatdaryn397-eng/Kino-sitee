@@ -1,0 +1,107 @@
+ <!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тіркелу  </title>
+ <style>
+  body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #092f57, #127957);
+}
+
+ 
+.register-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+ 
+.register-container h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+ 
+ .register-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+ 
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-container button:hover {
+  background-color: #222;
+}
+
+ 
+.register-container p {
+  color: white;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.register-container a {
+  color: #fff;
+  text-decoration: underline;
+}
+ 
+.animate {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="with-animation">
+
+  <div class="register-container animate">
+    <h2>Тіркелу</h2>
+    <form>
+      <input type="text" placeholder="Аты-жөніңіз" required>
+      <input type="email" placeholder="Электронная почта" required>
+      <input type="password" placeholder="Құпия сөз" required>
+      <button type="submit"><a href="file:///C:/Users/Dastan/Desktop/Academy%20Amjilt/Projects/KinoSite/index.html">Тіркелу </a></button>
+    </form>
+
+    <p>Тіркелгенсіз бе? <a href="file:///C:/Users/Dastan/Desktop/Academy%20Amjilt/Projects/KinoSite/index.html">Кіру</a></p>
+  </div>
+
+</body>
+</html>
